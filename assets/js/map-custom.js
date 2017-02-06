@@ -15,7 +15,7 @@
                     zoom: 11,
 
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                    center: new google.maps.LatLng(17.3688, 78.5247), // New York
 
                     scrollwheel: false,
 
@@ -34,7 +34,7 @@
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    position: new google.maps.LatLng(17.3688, 78.5247),
                     map: map,
                     title: 'Snazzy!'
                 });
